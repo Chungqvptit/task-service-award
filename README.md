@@ -34,9 +34,9 @@ Cách cài đặt project
 3. Sau khi cài đặt cơ sở dữ liệu, hãy tạo mã code. Hãy chắc chắn tạo dữ liệu phải tạo chính xác.
 
 Runing project:
-1. Đầu tiên chạy Server Eureka Resgistry URL http://localhost:8083/
+1. Đầu tiên chạy Server Eureka Resgistry URL http://localhost:8761/
 2. Sau đó chạy Spring Gateway
 3. Sau đó chạy customer_service, result_service, confer_award-service, notification_service
 4. Sau khi tất cả các service chạy thành công, bạn sẽ có thể thấy tất cả các dịch vụ trên được đăng ký 
-trên Eureka tại URL: http: // localhost: 8083 /  
+trên Eureka tại URL: http://localhost:8761/  
 5. Mở Postman nên test các API
